@@ -5,8 +5,11 @@ BASE_DIR = pathlib.Path("./data")  # Локальная папка для дан
 TEMP_DIR = pathlib.Path("./temp")  # Временная папка
 
 # G-Portal credentials
-GPORTAL_USERNAME = "Vlad_Dia"
-GPORTAL_PASSWORD = "GIAgia12345@"
+#GPORTAL_USERNAME = "Vlad_Dia"
+#GPORTAL_PASSWORD = "GIAgia12345@"
+
+GPORTAL_USERNAME = "Volodymyr_D"
+GPORTAL_PASSWORD = "GGGggg12345@"
 
 # Создаем папки если их нет
 BASE_DIR.mkdir(exist_ok=True)
