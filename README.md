@@ -723,7 +723,7 @@ If you use this data collection system in your research, please cite:
 ```bibtex
 @software{amsr2_processor_2025,
   title={AMSR-2 Data Collection and Processing System},
-  author={Your Name},
+  author={Volodymyr Didur},
   year={2025},
   url={https://github.com/yourusername/amsr2_project}
 }
