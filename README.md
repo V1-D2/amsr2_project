@@ -754,9 +754,3 @@ This project is released under the MIT License.
 ## Contact
 
 For questions about the data collection system or to report issues, please open an issue on GitHub or contact the repository maintainer.
-
----
-
-## Short Description
-
-**Automated pipeline for downloading and archiving 13+ years of AMSR-2 brightness temperature observations from JAXA G-Portal. Parallel HDF5 processing with incremental backups, multiple storage formats (temperature-only/full swath), and network-robust error handling for long-running satellite data collections.**
