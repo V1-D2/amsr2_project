@@ -229,10 +229,10 @@ max_workers: int = 4  # Concurrent download threads
 
 | Threads | Speed | Data Retention | Use Case |
 |---------|-------|----------------|----------|
-| 1 | 1× (baseline) | 99.5% | High reliability needed |
+| 1 | 1× (baseline) | 99.97% | High reliability needed |
 | 4 | 4× | 99% | Balanced (recommended) |
-| 8 | 8× | 97-98% | Speed priority |
-| 16 | 12-14× | 93-95% | Maximum speed, acceptable loss |
+| 8 | 8× | 95-97% | Speed priority |
+| 16 | 12-14× | 83-85% | Maximum speed, acceptable loss |
 
 **Why data loss occurs:**
 G-Portal's server capacity limits simultaneous requests. Exceeding this threshold causes:
